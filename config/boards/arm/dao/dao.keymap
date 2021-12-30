@@ -36,7 +36,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans &kp UNDER      &kp N1   &kp N2 &kp N3   &kp N4               &kp N5                &kp N6    &kp N7   &kp N8           &kp N9      &kp N0   &trans          &trans
-          &kp PLUS       &trans   &trans &trans   &trans               &kp LG(LS(N4))        &kp LEFT  &kp DOWN &kp UP           &kp RIGHT   &kp INS  &mt RCTRL K_APP  
+          &kp PLUS       &trans   &trans &trans   &trans               &trans                &kp LEFT  &kp DOWN &kp UP           &kp RIGHT   &kp INS  &mt RCTRL K_APP  
           &mt LALT EQUAL &kp EXCL &kp AT &kp HASH &kp DLLR             &kp PRCNT             &kp CARET &kp AMPS &kp KP_MULTIPLY  &kp LPAR    &kp RPAR
                                               &lt ADJ TAB &trans       &trans                &trans &trans &lt ADJ DEL
                         >;
@@ -49,9 +49,9 @@
 //       |      |  0  |  1  |  2  |  3  |  .  |   | VOLD| END | DOWN| PGDN| PAUS|     |
 //                          |     |     | ADJ |   | ADJ |     |     |
                         bindings = <
-   &trans  &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS  &kp LA(LBKT)           &kp LA(RBKT) &kp HOME &kp PSCRN  &kp PG_UP &kp SLCK          &kp CAPS &trans
-           &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS   &kp LPAR               &kp RPAR     &trans   &trans     &trans    &trans            &trans    
-           &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT    &kp LA(LT)             &kp LA(GT)   &kp END  &kp C_MUTE &kp PG_DN &kp PAUSE_BREAK   &trans
+   &trans  &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS  &kp LA(LBKT)           &kp LA(RBKT) &kp HOME         &kp PSCRN  &kp PG_UP &kp SLCK          &kp CAPS &trans
+           &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS   &kp LPAR               &kp RPAR     &kp LG(LS(N4))   &kp LG(LC(LS(N4)))     &trans    &trans            &trans    
+           &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT    &kp LA(LT)             &kp LA(GT)   &kp END          &kp C_MUTE &kp PG_DN &kp PAUSE_BREAK   &trans
                                                         &trans &trans &lt ADJ RET         &lt ADJ ESC  &trans   &trans
                         >;
                 };
