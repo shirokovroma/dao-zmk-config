@@ -46,7 +46,7 @@
                         bindings = <
    &trans  &kp FSLH        &kp MINUS  &kp N7 &kp N8 &kp N9  &kp LBKT          &kp RBKT       &trans           &trans                 &trans    &trans              &trans    &trans
            &kp RS(N8)      &kp PLUS   &kp N4 &kp N5 &kp N6  &kp LPAR          &kp RPAR       &kp LG(LS(N4))   &kp LG(LC(LS(N4)))     &trans    &trans              &trans    
-           &kp RA(DOT)     &kp N0     &kp N1 &kp N2 &kp N3  &kp LS(LBKT)      &kp RS(RBKT)   &trans           &kp RA(COMMA)          &kp RA(DOT) &kp PAUSE_BREAK   &trans
+           &kp RA(DOT)     &kp N0     &kp N1 &kp N2 &kp N3  &kp LS(LBKT)      &kp RS(RBKT)   &trans           &kp RA(COMMA)          &kp RA(DOT) &trans   &trans
                                           &trans &trans &lt ADJ RET           &lt ADJ ESC  &trans   &trans
                         >;
                 };
