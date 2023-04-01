@@ -47,7 +47,7 @@
 */
                         bindings = <
    &trans &kp UNDER        &trans          &trans           &trans      &trans        &trans                    &trans    &trans   &trans           &trans      &trans            &trans          &trans
-          &kp PLUS         &trans          &trans           &trans      &trans        &trans                    &kp LEFT  &kp DOWN &kp UP           &kp RIGHT   &kp SEMI           &mt RCTRL K_APP
+          &kp PLUS         &trans          &trans           &trans      &trans        &trans                    &kp LEFT  &kp DOWN &kp UP           &kp RIGHT   &kp COLON           &mt RCTRL K_APP
           &mt LSHIFT EQUAL &mt LSHIFT EXCL &kp AT           &kp HASH    &kp DLLR      &kp PRCNT                 &kp CARET &kp AMPS &kp RS(N8)       &kp UNDER    &mt LSHIFT EQUAL   &mt RSHFT BSLH
                                                             &lt ADJ TAB &trans        &trans                    &trans    &trans   &lt ADJ DEL
                         >;
