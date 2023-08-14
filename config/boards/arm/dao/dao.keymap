@@ -43,7 +43,7 @@
    &kp LA(N1)  &kp TAB          &kp Q             &kp W           &kp E        &kp R          &kp T                &kp Y       &kp U           &kp I           &kp O         &kp P              &kp LBKT           &kp LA(N2)
             &kp CAPS         &kp A             &bhm LCTRL S     &bhm LALT D   &bhm LGUI F     &kp G                &kp H       &bhm RGUI J      &bhm RALT  K     &bhm RCTRL L   &kp SEMI           &kp SQT
             &bhm LSHIFT GRAVE &bhm LSHIFT Z      &kp X           &kp C        &kp V          &kp B                &kp N       &kp M           &kp COMMA       &kp DOT       &bhm RSHIFT FSLH    &bhm RSHFT BSLH
-                                                               &lt RSE BSPC &bhm LALT SPACE &lt LWR RET          &lt LWR RET &bhm RALT SPACE  &lt RSE DEL
+                                                               &lt RSE BSPC &lt ADJ SPACE &lt LWR RET          &lt LWR RET &bhm ADJ SPACE  &lt RSE DEL
                         >;
                 };
                 lower_layer {
@@ -56,10 +56,10 @@
 |         |                 |                |            | lt ADJ TAB | trans    | trans      | ------------- | trans    | trans      | lt ADJ DEL |           |                |                |       |
 */
                         bindings = <
-   &kp ESC &kp UNDER        &trans          &trans           &trans      &trans        &trans                    &trans    &trans   &trans           &trans      &trans            &trans         &kp RBKT
+   &trans &kp UNDER        &trans          &trans           &trans      &trans        &trans                    &trans    &trans   &trans           &trans      &trans            &trans         &kp RBKT
           &kp PLUS         &trans          &trans           &trans      &trans        &trans                    &kp LEFT  &kp DOWN &kp UP           &kp RIGHT   &kp COLON           &bhm RCTRL K_APP
           &bhm LSHIFT EQUAL &bhm LSHIFT EXCL &kp AT           &kp HASH    &kp DLLR      &kp PRCNT                 &kp CARET &kp AMPS &kp RS(N8)       &kp UNDER    &bhm LSHIFT EQUAL   &bhm RSHFT BSLH
-                                                            &lt ADJ TAB &trans        &trans                    &trans    &trans   &lt ADJ DEL
+                                                            &lt ADJ BSPC &trans        &trans                    &trans    &trans   &lt ADJ DEL
                         >;
                 };
 
@@ -73,7 +73,7 @@
  |         |         |            |            | TRNS | TRNS     | LT ADJ RET | ----------------- | LT ADJ ESC | TRNS       | TRNS      |         |      |      |      |
 */
                         bindings = <
-&trans      &kp FSLH       &kp MINUS   &kp N7   &kp N8       &kp N9       &kp LBKT                &kp RBKT     &trans          &trans             &trans       &trans    &trans     &trans
+&kp ESC      &kp FSLH       &kp MINUS   &kp N7   &kp N8       &kp N9       &kp LBKT                &kp RBKT     &trans          &trans             &trans       &trans    &trans     &trans
             &kp RS(N8)     &kp PLUS    &kp N4   &kp N5       &kp N6       &kp LPAR                &kp RPAR     &kp LG(LS(N4))  &kp LG(LC(LS(N4))) &trans       &trans    &trans
             &kp RA(DOT)    &kp N0      &kp N1   &kp N2       &kp N3       &kp LS(LBKT)            &kp RS(RBKT) &trans          &kp RA(COMMA)      &kp RA(DOT)  &trans    &trans
                                                 &trans       &trans       &lt ADJ RET             &lt ADJ ESC  &trans          &trans
